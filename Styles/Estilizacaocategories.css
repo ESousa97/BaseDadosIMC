@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: rgb(255, 140, 0);
+  }
+  
+  a:visited {
+    color: rgb(255, 140, 0);
+    text-decoration: none;
+  }

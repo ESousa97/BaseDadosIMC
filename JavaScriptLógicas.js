@@ -4,7 +4,7 @@ var originalProcedureListHTML = '';
 
 // Função para pesquisar os procedimentos
 function searchProcedures() {
-    var input, filter, procedureList, procedureItems, procedureItem, procedureTitle, procedureDescription;
+    var input, filter, procedureList, procedureItems, procedureItem, procedureTitle, procedureDescription, a;
     input = document.getElementById('searchInput');
     filter = normalizeString(input.value.toUpperCase());
     procedureList = document.getElementsByClassName('procedure-list')[0];
@@ -26,7 +26,7 @@ function searchProcedures() {
     // Percorre todos os itens de procedimentos e mostra ou oculta com base na pesquisa
     for (var i = 0; i < procedureItems.length; i++) {
         procedureItem = procedureItems[i];
-        procedureTitle = procedureItem.querySelector('h1, h2, h3, h4, h5, h6'); // Altere a tag de cabeçalho conforme necessário
+        procedureTitle = procedureItem.querySelector('h1, h2, h3, h4, h5, p, table'); // Altere a tag de cabeçalho conforme necessário
         procedureDescription = procedureItem.querySelector('p');
 
         // Verifica se o filtro está presente no título ou na descrição
@@ -56,7 +56,7 @@ function normalizeString(string) {
 // Função para limpar a caixa de pesquisa e exibir todos os procedimentos novamente
 function clearSearch() {
     var input = document.getElementById('searchInput');
-    var procedureList = document.getElementsByClassName('procedure-list')[0];
+    var procedureList = document.getElementsByClassName('procedure-item')[0];
 
     // Restaura a lista original
     procedureList.innerHTML = originalProcedureListHTML;

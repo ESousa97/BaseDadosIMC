@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Styles/Estilizacaogeral.css">
+    <link rel="stylesheet" href="/Styles/Estilizacaobotao.css">
     <script src="/JavaScriptLógicas.js"></script>
+    <script src="/JavaScriptBotao.js"></script>
     <title>Operação IMC</title>
 </head>
+<header class="Cabecalho">
+    <nav class="Cabecalho__menu">
+        <a class="Cabecalho__menu__link" href="/index.html">
+            <h4>Página Principal</h4>
+        </a>
+        <a class="Cabecalho__menu__link" href="/Categories.html">
+            <h4>Categorias</h4>
+        </a>
+    </nav>
+</header>
 <body>
     <main class="procedures__list">
         <section class="procedures__titulo">
@@ -130,7 +142,7 @@
                 <h2><a href="/IDProcessos/IMC0019.html">
                     <img src="Assets/Procedimentos/IMC0019/AlohaIconPack.png" alt="Imagem do AlohaIconPack">
                 </a></h2>
-                <p>Sistema parado ou aguardando permisão / STOP</p>
+                <p>Sistema parado ou aguardando permisão - STOP</p>
             </div>
             <div class="procedure-item">
                 <h2><a href="/IDProcessos/IMC0020.html">
@@ -322,6 +334,9 @@
                 <h2><a href="/IDProcessos/IMC0053.html">
                     <img src="/Assets/Procedimentos/IMC0053/ImpressoraIcon.png" alt="Imagem do"></a></h2>
                 <p>IMPRESSORAS - KYOCERA - BROTHER - PH / KFC</p>
+            </div>
+            <div class="botao">
+                <button class="botao" onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">&#8679;</button>
             </div>
     </main>
     <footer class="rodape">
