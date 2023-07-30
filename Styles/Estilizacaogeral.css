@@ -334,6 +334,7 @@ img {
         font-size: 0.7rem;
     }
 }
+
 @media (max-width: 480px) {
     .procedure-item {
         width: calc(100% - 1px); /* Para dividir em duas colunas */
@@ -349,7 +350,11 @@ img {
       }
     .procedure-list.procedure-item-1.procedure-list-1.procedures__titulo.rodape.Cabecalho.Cabecalho__menu.Cabecalho__menu__link.search-box {
         width: auto;
-        padding-left: 50%;
+        padding-left: 0;
+    }
+
+    .search-box input {
+        width: 80%;
     }
     
     h2 {
