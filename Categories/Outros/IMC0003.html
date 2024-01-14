@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELEFONIA – VOIP</title>
+    <link rel="stylesheet" href="/Styles/Estilizacaogeral.css">
+    <link rel="stylesheet" href="/Styles/EstilizacaoImg/StylesImg.css">
+</head>
+<body>
+    <header class="Cabecalho">
+        <nav class="Cabecalho__menu">
+            <a class="Cabecalho__menu__link" href="/index.html">Página Principal</a>
+        </nav>
+    </header>
+<div class="procedure-list-1">
+    <div class="procedure-item-1">
+        <h1>TELEFONIA - VOIP</h1>
+        <h3>As lojas utilizam aparelhos voip, exceto o KFC</h3>
+        <h4>Se a loja reclamar que não está recebendo ligação, ou se a linha esta muda precisamos validar se o  equipamento está aparecendo no Advanced IP scanner e pedir para loja a foto do visor do aparelho para validar o aparelho está com conexão.</h4>
+        <h4>Existem casos em que a loja colocou o  aparelho em não perturbe , se estiver dessa forma no visor vai aparece a sigla DND , nesse  caso a loja só precisa aperta a tecla sem identificação.</h4>
+        <h4>Existem dois tipos de aparelho Yealink ou siemens, e normalmente o final do IP da telefonia é 100.</h4>
+        <h4>(existem casos em que ainda está fora do padrão)</h4>
+        <h4>OBS: se aparecer um aparelho cisco a loja está utilizando o aparelho incorreto (nesses casos devemos acionar a IMC para trocar o aparelho).</h4>
+    </div>
+    <br>
+    <div class="procedure-image">
+        <img src="/Assets/Procedimentos/IMC0003/IMC0003__1.png">
+    </div>
+    <br>
+    <div class="procedure-item-1">
+        <h4>Para validar se o mesmo está com rede , abrir o navegador no servidor da loja e digitar o ip do aparelho na url de sites</h4>
+        <h4>LOGIN: ADMIN ou admin</h4>
+        <h4>SENHA: ADMIN ou admin</h4>
+    </div>
+    <br>
+    <div class="procedure-image">
+        <img src="/Assets/Procedimentos/IMC0003/IMC0003__2.png">
+    </div>
+    <br>
+    <div class="procedure-item-1">
+        <h4>Se ao digitar o ip não carregar a tela acima , provavelmente o problema  está no aparelho, necessário validar os cabos , se mesmo assim o aparelho não voltar pedir um field no local para verificar</h4>
+        <h4>OBS: validar se antes do IP esta HTTP</h4>
+        <h4>Na aba Account precisa verificar o status registro :</h4>
+        <h4>Registred - a linha está ok</h4>
+        <h4>Register faled -  alinha está com problemas , nesse caso pode ter 3 possíveis  problemas :</h4>
+        <h4>Senha incorreta , o servidor com o ip errado ou o transporte errado</h4>
+    </div>
+    <br>
+    <div class="procedure-image">
+        <img src="/Assets/Procedimentos/IMC0003/IMC0003__3.png">
+    </div>
+    <br>
+    <br>
+    <div class="procedure-image">
+        <img src="/Assets/Procedimentos/IMC0003/IMC0003__4.png">
+    </div>
+    <br>
+    <div class="procedure-item-1">
+        <h4>Register faled – transporte errado</h4>
+        <h4>O padrão é que o campo transporte esteja com UDP</h4>
+        <h4>Se tiver UDP e mesmo assim não estiver funcionando validar a informação do servidor está correta, o ip do servidor deve ser 10.11.4.80</h4>
+    </div>
+    <br>
+    <div class="procedure-image">
+        <img src="/Assets/Procedimentos/IMC0003/IMC0003__5.png">
+    </div>
+    <br>
+    <br>
+    <div class="procedure-image">
+        <img src="/Assets/Procedimentos/IMC0003/IMC0003__6.png">
+    </div>
+    <br>
+    <br>
+    <div class="procedure-item-1">
+        <h4>Se estiver com o IP certo e estiver com UDP e mesmo  assim não funcionar , trocar o UDP para TCP</h4>
+        <h4>Se mesmo trocando para TCP não funcionar, digitar novamente a senha no campo password</h4>
+        <h4>
+            SENHA : Union!@1234 
+        </h4>
+        <h4>OBS: validar se o DSN está igual ao DNS da máquina, na aba network</h4>
+        <h4>Se com todas essas validações o problema persistir, solicitar a visita de um field para verificar a estrutura da onde o aparelho está: se o ponto está funcionando , se a tomada não está em curto e etc</h4>
+        <h4>Caso o field não encontre problemas devemos acionar o Rodrigo.</h4>
+        <h4>Field acionar pelo whats, service desk acionar por e-mail: Rodrigo Wesley S. Teruel <rodrigo.souza@internationalmealcompany.com>, e o grupo do servicedesk.</h4>
+    </div>
+</div>
+</body>
+</html>

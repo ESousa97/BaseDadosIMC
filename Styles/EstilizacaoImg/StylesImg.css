@@ -1,0 +1,15 @@
+.procedure-image {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: auto; /* Ajuste a altura conforme necessário */
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: 200%;
+  }
+
+  .procedure-image:last-child {
+    margin-bottom: 0; /* Remover a margem inferior da última imagem */
+  }

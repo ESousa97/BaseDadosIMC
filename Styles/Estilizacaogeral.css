@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+    font-family: 'FonteGeral';
+    src: url(/FontFace/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: 'FonteGeral', Arial, sans-serif;
+    box-sizing: border-box;
+    background-image: url(/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+
+.Cabecalho {
+    padding: 2% 2% 2% 5%;
+    background-color: rgb(99, 99, 99);
+    border-bottom: 2px solid rgb(255, 145, 0);
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.Cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    float: left;
+}
+
+.Cabecalho__menu__link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(255, 145, 0);
+    text-shadow: 2px 2px 2px #000000;
+    text-decoration: none;
+}
+
+.Cabecalho__menu a:hover {
+  transition: 0.3s;
+    background-color: #ffffff5d;
+    border-radius: 5px;
+}
+
+.procedure-list {
+    padding: 20px;
+}
+
+.procedures__titulo {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255,140,0);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5%;
+}
+
+/* Estilos da caixa de pesquisa */
+.search-box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box input {
+    width: 500px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+}
+
+.search-box input:hover {
+    transition: 0.3s;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+.procedure-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .procedure-item {
+    background-color: #000000;
+    padding: 20px;
+  }
+
+  .procedure-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .procedure-item {
+    width: calc(30% - 20px); /* Para dividir em duas colunas */
+    background-color: #00000069;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffffbd;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(255,140,0);
+    text-decoration: none;
+    border-radius: 15px;
+  }
+
+  .procedure-item img:hover {
+    transition: 0.3s;
+    background-color: rgb(255,140,0);
+    border-radius: 10px;
+  }
+
+.procedure-list-1 {
+    position: relative; /* Para que a caixa de fundo fique posicionada corretamente */
+}
+
+.procedure-list-1:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    bottom: -5%;
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo transparente com opacidade reduzida */
+    z-index: -1; /* Coloca a caixa atrás do conteúdo */
+}
+
+.procedure-list-1 {
+    padding-left: 12%;
+    padding-right: 12%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    gap: 20%;
+    text-align: center; /* Centralizar o h1 */
+}
+
+.procedure-item-1 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    flex-direction: column;
+}
+
+img {
+  border-radius: 5px;
+}
+
+/* Reset de margens e padding para ul e p */
+ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+.procedure-list-categories {
+  margin-bottom: 20px; /* Adicione um espaçamento entre as categorias */
+}
+
+.procedure-item-categories a:hover {
+  background-color: #ffffff8c;
+}
+
+.procedure-item-categories {
+  padding: 5px;
+}
+
+.procedure-item-categories h3 {
+  position: relative;
+  padding: 0px 0px 10px 0px; /* Adicione um espaçamento personalizado */
+  margin: 0; /* Remova as margens para evitar espaçamento extra */
+}
+
+.procedure-item-categories h3 .arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  transition: transform 0.3s;
+}
+
+.procedure-item-categories.maximized h3 .arrow {
+  transform: rotate(135deg);
+}
+
+/*Caixa transparente atrás de todo conteudo*/
+.procedure-item-categories:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  bottom: -10%;
+  background-color: rgba(0, 0, 0, 0.13); /* Cor de fundo transparente com opacidade reduzida */
+  z-index: -1; /* Coloca a caixa atrás do conteúdo */
+  border: 1px solid rgb(247, 247, 247);
+}
+
+/*Função para deixar o texto sincronizado com o fundo transparente */
+.procedure-item-categories {
+  padding-left: 13%;
+  padding-right: 13%;
+  color: rgb(255, 140, 0);
+  text-shadow: 2px 2px 2px #000000;
+  list-style: none;
+}
+
+.procedure-item-categories li:hover {
+  transition: 0.3s;
+  background-color: #8181815d;
+  border-radius: 10px;
+}
+
+.procedure-item-categories h3:hover {
+  transition: 0.3s;
+  background-color: #5252525d;
+  border-radius: 10px;
+}
+
+/* Estilo para mostrar os elementos li quando a classe "maximized" estiver presente */
+.procedure-item-categories.maximized li {
+  display: none;
+}
+
+.procedure-item-categories.maximized li a {
+  display: block;
+}
+
+
+.procedure-item-1 h3,
+.procedure-item-1 h1 {
+    text-align: center; /* Alinhar h2, h3 e h4 à esquerda */
+}
+
+.procedure-item-1 h4 {
+    text-align: left; /* Alinhar h2, h3 e h4 à esquerda */
+}
+
+h2 {
+    font-weight: 600px; /* Valor para deixar as fontes mais finas */
+  }
+
+h3 {
+    font-weight: 400px; /* Valor para deixar as fontes mais finas */
+  }
+
+h4 {
+    font-weight: 1px; /* Valor para deixar as fontes mais finas */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.marker {
+    color: rgb(0, 0, 0); /* Cor do marcador */
+    margin-right: 10px; /* Espaçamento à direita do marcador */
+  }
+
+  .rodape {
+    padding: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 136, 0, 0.479);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+/* Estilos para telas menores (responsivo) */
+@media (max-width: 1048px) {
+    .procedure-item {
+        width: calc(50% - 20px); /* Para dividir em duas colunas */
+        background-color: #0000009d;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #ffffffbd;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: rgb(255,140,0);
+        text-decoration: none;
+      }
+
+    .procedure-list.procedure-item-1.procedure-list-1.procedures__titulo.rodape.Cabecalho.Cabecalho__menu.Cabecalho__menu__link.procedure-item-categories.procedure-list-categories.search-box {
+        width: 100px;
+        padding-left: 50%;
+    }
+
+    h1 {
+        font-size: 1.4rem;}
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+      }
+
+    h4 {
+        font-size: 0.7rem;
+      }
+    
+    p {
+        font-size: 0.8rem;
+    }
+
+    a{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .procedure-item {
+        width: calc(100% - 1px); /* Para dividir em duas colunas */
+        background-color: #0000009d;
+        padding: 5px;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #ffffffbd;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: rgb(255,140,0);
+        text-decoration: none;
+      }
+    .procedure-list.procedure-item-1.procedure-list-1.procedures__titulo.rodape.Cabecalho.Cabecalho__menu.Cabecalho__menu__link.search-box {
+        width: auto;
+        padding-left: 0;
+    }
+
+    .search-box input {
+        width: 80%;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    p {
+        font-size: 0.8rem;
+    }
+}

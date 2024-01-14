@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Estilizacaogeral.css">
+    <link rel="stylesheet" href="/Styles/Estilizacaobotao.css">
+    <script src="/JavaScriptLógicas.js"></script>
+    <script src="/JavaScriptBotao.js"></script>
+    <title>Operação IMC</title>
+</head>
+<header class="Cabecalho">
+    <nav class="Cabecalho__menu">
+        <a class="Cabecalho__menu__link" href="/index.html">
+            <h4>Página Principal</h4>
+        </a>
+        <a class="Cabecalho__menu__link" href="/Categories.html">
+            <h4>Categorias</h4>
+        </a>
+    </nav>
+</header>
+<body>
+    <main class="procedures__list">
+        <section class="procedures__titulo">
+            <h2>Bem-vindo à Consulta de Procedimentos</h2>
+            <h3>Aqui você pode pesquisar procedimentos e encontrar mais informações sobre cada um deles.</h3>
+        </section>
+    <div class="search-box">
+        <div class="Home">
+        </div>
+        <input type="text" id="searchInput" onkeyup="searchProcedures()" placeholder="Digite aqui para pesquisar">
+    </div>
+        <div class="procedure-list">
+            <!-- Adicione os tópicos de procedimentos -->
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0001.html">
+                    <img src="/Assets/Procedimentos/IMC0001/vtticon.png" alt="Imagem do Tópico 1">
+                </a></h2>
+                <p>Vtt - Menuboard - Telas de cardápio</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0002.html">
+                    <img src="/Assets/Procedimentos/IMC0002/touchicon.png" alt="Imagem do Tópico 2">
+                </a></h2>
+                <p>Calibração de TouchScreen - Calibration</p>
+            </div>
+            <!-- Adicione mais tópicos de procedimentos -->
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0003.html">
+                    <img src="/Assets/Procedimentos/IMC0003/voipicon.png" alt="Imagem do Tópico 3">
+                </a></h2>
+                <p>Voip e Telefonia</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0004.html">
+                    <img src="/Assets/Procedimentos/IMC0004/interneticon.png" alt="Internet icon">
+                </a></h2>
+                <p>Internet - Indisponibilidade ou Lentidão</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0005.html">
+                    <img src="/Assets/Procedimentos/IMC0005/officeicon.png" alt="Office Icon">
+                </a></h2>
+                <p>Link para Instalação do Office</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0006.html"><img src="Assets/Procedimentos/IMC0006/hardwareicon.png" alt="Imagem IconHardware"></a></h2>
+                
+                <p>Configurando Hostnames Padrões</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0007.html"> <img src="/Assets/Procedimentos/IMC0007/CadastroIcon.png" alt="Cadastro Icon"></a>
+                </h2>
+                <p>Cadastro de Usuários - Orientações</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0008.html">
+                    <img src="/Assets/Procedimentos/IMC0008/AnydeskIcon.png" alt="Anydesk Icon">
+                </a></h2>
+                <p>Configurar Senha do Anydesk</p>
+            </div><div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0009.html">
+                    <img src="/Assets/Procedimentos/IMC0009/RgmIcon.png" alt="Rgm Icon">
+                </a></h2>
+                <p>Rgm - Catracas - Reparo</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0010.html">
+                    <img src="/Assets/Procedimentos/IMC0010/FrangoIcon.png" alt="Frango assado icon">
+                </a></h2>
+                <p>Lista de Lojas PH dentro FA</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0011.html">
+                    <img src="/Assets/Procedimentos/IMC0011/VSicon.png" alt="VideoSoft Icon"></a>
+                </h2>
+                <p>VideoSoft AutoAtendimento - KFC e PH</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0012.html">
+                    <img src="/Assets/Procedimentos/IMC0012/SatSwedaIcont.png" alt="Imagem Sat swedaIcon">
+                </a></h2>
+                <p>Sat - Cupom fiscal - Drivers</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0013.html">
+                    <img src="/Assets/Procedimentos/IMC0013/DimepIcon.png" alt="Imagem DimepIcon">
+                </a></h2>
+                <p>Relógio de Ponto Dimep - Instalação - Orçamento - DMREP</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0014.html">
+                    <img src="/Assets/Procedimentos/IMC0014/DimepIcon.png" alt="Imagem DimepIcon">
+                </a></h2>
+                <p>Relógio de Ponto - Reset - Cadastro de digital - DIMEP</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0015.html">
+                    <img src="/Assets/Procedimentos/IMC0015/SenhaIcon.png" alt="Imagem SenhaIcon">
+                </a></h2>
+                <p>Senhas padrão IMC todas as lojas</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0016.html">
+                    <img src="/Assets/Procedimentos/IMC0016/AdministradorIcon.png" alt="Imagem AdministradorIcon">
+                </a></h2>
+                <p>Senhas de Administrador</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0017.html">
+                    <img src="/Assets/Procedimentos/IMC0017/PhdvIcon.png" alt="Imagem do PhdvIcon">
+                </a></h2>
+                <p>Instalador do Receptor de pedidos - PHDV - PizzaHut</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0018.html">
+                    <img src="/Assets/Procedimentos/IMC0018/IconPackNCR.png" alt="Imagem do IconPackNCR">
+                </a></h2>
+                <p>Retirar ou colocar loja em redundância</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0019.html">
+                    <img src="Assets/Procedimentos/IMC0019/AlohaIconPack.png" alt="Imagem do AlohaIconPack">
+                </a></h2>
+                <p>Sistema parado ou aguardando permisão - STOP</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0020.html">
+                    <img src="/Assets/Procedimentos/IMC0020/AlohaMasterIconPack.png" alt="Imagem do AlohaMasterIconPack"></a></h2>
+                <p>Aloha determinando servidor de arquivos</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0021.html">
+                    <img src="/Assets/Procedimentos/IMC0021/NcrIconMenulink.png" alt="Imagem do NcrIconMenulink">
+                </a></h2>
+                <p>MenuLink - NBO - Exportação de vendas - Vendas não subiram</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0022.html">
+                    <img src="/Assets/Procedimentos/IMC0022/DegusOneIconPack.png" alt="Imagem do DegustIconReset">
+                </a></h2>
+                <p>Reset de senha de usuários do Degust - DegustOne</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0023.html">
+                    <img src="/Assets/Procedimentos/IMC0023/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack">
+                </a></h2>
+                <p>Exportação de vendas - Degust - Vendas não subiram - Arquivo de movimento</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0024.html">
+                    <img src="/Assets/Procedimentos/IMC0024/DegustOneIconPack.png" alt="Imagem do DegustOneIconPack DegustUpdate">
+                </a></h2>
+                <p>DegustUpdate não encontrado - DegustUpdate</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0025.html">
+                    <img src="/Assets/Procedimentos/IMC0025/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack abertura de chamados">
+                </a></h2>
+                <p>Abertura de chamados na plataforma Linx - DegustOne</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0026.html">
+                    <img src="/Assets/Procedimentos/IMC0026/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack Instalar Reshop">
+                </a></h2>
+                <p>Reshop - Instalação ou Configuração - Não entra desconto Reshop</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0027.html">
+                    <img src="/Assets/Procedimentos/IMC0027/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack Att tabelas">
+                </a></h2>
+                <p>Atualização de cardápio - Atualização de tabelas</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0028.html">
+                    <img src="/Assets/Procedimentos/IMC0028/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack Mapeando Impressora">
+                </a></h2>
+                <p>Mapeando impressora - Degust - Gaveta não abre</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0029.html">
+                    <img src="/Assets/Procedimentos/IMC0029/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack Mid-e client TESTE">
+                </a></h2>
+                <p>Mid-e Client Teste - Teste Sat Degust - Redirecionamento SAT</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0054.html">
+                    <img src="/Assets/Procedimentos/IMC0054/DegustOneIconPack.png" alt="Imagem do DegusOneIconPack DEGUST LENTO">
+                </a></h2>
+                <p>Degust lento - Degust lento</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0055.html">
+                    <img src="/Assets/Procedimentos/IMC0055/CadastroIcon.png" alt="Imagem CadastroIcon padronização de conta">
+                </a></h2>
+                <p>Padronização de conta</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0030.html">
+                    <img src="/Assets/Procedimentos/IMC0030/AliveIcon.png" alt="Imagem do AliveIcon Rauticket">
+                </a></h2>
+                <p>AliveADM / Rau Ticket</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0031.html">
+                    <img src="/Assets/Procedimentos/IMC0031/AliveIcon.png" alt="Imagem do AliveIcon ATT Tabela IBPT">
+                </a></h2>
+                <p>AliveADM - Atualização Tabela IBPT (SOMENTE IMPOSTOS)</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0032.html">
+                    <img src="/Assets/Procedimentos/IMC0032/AliveIcon.png" alt="Imagem do AliveIcon Bloqueio NFE">
+                </a></h2>
+                <p>AliveADM - AlivePosto - Bloqueio de NFE - Sem comunicação com SEFAZ</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0033.html">
+                    <img src="/Assets/Procedimentos/IMC0033/AliveIcon.png" alt="Imagem do AliveIcon Cadastro - Alterar Bicos">
+                </a></h2>
+                <p>AliveADM - Cadastro ou alteração de bico de combustiveis.</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0034.html">
+                    <img src="/Assets/Procedimentos/IMC0034/AliveIcon.png" alt="Imagem do AliveIcon Carta de correção">
+                </a></h2>
+                <p>Alive ADM - Emitir carta de correção - nota fiscal eletronica</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0035.html">
+                    <img src="/Assets/Procedimentos/IMC0035/AliveIcon.png" alt="Imagem do AliveIcon LMC gerar ou alterar">
+                </a></h2>
+                <p>AliveADM - Gerar ou alterar LMC</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0036.html">
+                    <img src="/Assets/Procedimentos/IMC0036/AliveIcon.png" alt="Imagem do AliveIcon Sat">
+                </a></h2>
+                <p>Alive ADM - Orientações sobre equipamentos SAT</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0037.html">
+                    <img src="/Assets/Procedimentos/IMC0037/AliveIcon.png" alt="Imagem do AliveIcon Alive Adm cadastra e-mail">
+                </a></h2>
+                <p>AliveADM - Configurar e-mail</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0038.html">
+                    <img src="/Assets/Procedimentos/IMC0038/AliveIcon.png" alt="Imagem do AliveIcon Cadastrar / Alterar tanque">
+                </a></h2>
+                <p>AliveADM - Cadastrar ou alterar tanques de combustiveis</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0039.html">
+                    <img src="/Assets/Procedimentos/IMC0039/AliveIcon.png" alt="Imagem do AliveIcon Cadastro / Crédito">
+                </a></h2>
+                <p>AliveADM - Cadastrar / Alterar limite de crédito</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0040.html">
+                    <img src="/Assets/Procedimentos/IMC0040/AliveIcon.png" alt="Imagem do AliveIcon Alterar / Cadastrar SAT">
+                </a></h2>
+                <p>AliveADM - AlivePosto / Alterar ou cadastrar SAT</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0041.html">
+                    <img src="/Assets/Procedimentos/IMC0041/AliveIcon.png" alt="Imagem do AliveIcon / Leitor">
+                </a></h2>
+                <p>Alive - Leitor - Alterar funcionário</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0042.html">
+                    <img src="/Assets/Procedimentos/IMC0042/AliveIcon.png" alt="Imagem do AliveIcon Aferição Posto"></a></h2>
+                <p>AlivePosto - Efetuar Aferição</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0043.html">
+                    <img src="/Assets/Procedimentos/IMC0043/AliveIcon.png" alt="Imagem do AliveIcon configurando Email Posto"></a></h2>
+                <p>AlivePosto - Configurando E-mail</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0044.html">
+                    <img src="/Assets/Procedimentos/IMC0044/AliveIcon.png" alt="Imagem do AliveIcon configurando pinpad"></a></h2>
+                <p>AlivePOSTO - Configurando Pinpad - DLL</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0045.html">
+                    <img src="/Assets/Procedimentos/IMC0045/AliveIcon.png" alt="Imagem do AliveIcon Cupom preso"></a></h2>
+                <p>AlivePOSTO - Cupom preso - Cupom travado</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0046.html">
+                    <img src="/Assets/Procedimentos/IMC0046/AliveIcon.png" alt="Imagem do AliveIcon Extrair XML "></a></h2>
+                <p>AlivePOSTO - Extrair ou enviar arquivo XML</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0047.html">
+                    <img src="/Assets/Procedimentos/IMC0047/AliveIcon.png" alt="Imagem do AliveIcon Licença Server"></a></h2>
+                <p>AliveSINCRO - Renovar licença</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0048.html">
+                    <img src="/Assets/Procedimentos/IMC0048/AliveIcon.png" alt="Imagem do AliveIcon Central Fokus att"></a></h2>
+                <p>ALIVE - Atualização de preços - Central Alive Fokus</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0049.html">
+                    <img src="/Assets/Procedimentos/IMC0049/AliveIcon.png" alt="Imagem do AliveIcon Liceça inoperante"></a></h2>
+                <p>ALIVE - LICENÇA SERVIDOR INOPERANTE</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0050.html">
+                    <img src="/Assets/Procedimentos/IMC0050/gertecicon.png" alt="Imagem do GertecIcon"></a></h2>
+                <p>GERTEC - Driver atualizado - PPC930 - PPC920</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0051.html">
+                    <img src="/Assets/Procedimentos/IMC0051/gertecicon.png" alt="Imagem do GertecIcon DLL Degust"></a></h2>
+                <p>DEGUST - DLL pinpad- não aceita cpf - erro de pinpad 31</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0052.html">
+                    <img src="/Assets/Procedimentos/IMC0052/ImpressoraIcon.png" alt="Imagem da ImpressoraIcon"></a></h2>
+                <p>Impressora Fiscal - SWEDA - EPSON - DRIVERS</p>
+            </div>
+            <div class="procedure-item">
+                <h2><a href="/IDProcessos/IMC0053.html">
+                    <img src="/Assets/Procedimentos/IMC0053/ImpressoraIcon.png" alt="Imagem do"></a></h2>
+                <p>IMPRESSORAS - KYOCERA - BROTHER - PH / KFC</p>
+            </div>
+            <div class="botao">
+                <button class="botao" onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">&#8679;</button>
+            </div>
+    </main>
+    <footer class="rodape">
+        <h4>Desenvolvido por Jose Enoque</h4>
+    </footer>
+</body>
+</html>

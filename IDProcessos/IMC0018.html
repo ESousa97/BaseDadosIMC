@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDUNDÂNCIA</title>
+    <link rel="stylesheet" href="/Styles/Estilizacaogeral.css">
+    <link rel="stylesheet" href="/Styles/EstilizacaoImg/StylesImg.css">
+    <link rel="stylesheet" href="/Styles/Estilizacaobotao.css">
+    <script src="/JavaScriptBotao.js"></script>
+</head>
+<body>
+    <header class="Cabecalho">
+        <nav class="Cabecalho__menu">
+            <a class="Cabecalho__menu__link" href="/index.html">
+                <h4>Página Principal</h4>
+            </a>
+            <a class="Cabecalho__menu__link" href="/Categories.html">
+                <h4>Categorias</h4>
+            </a>
+        </nav>
+    </header>
+    <div class="procedure-list-1">
+        <div class="procedure-item-1">
+            <h1>RETIRAR LOJA DE REDUNDÂNCIA</h1>
+            <br>
+            <h3>FLUXO DE ATENDIMENTO PARA INICIAR PROCESSO DE REDUNDÂNCIA</h3>
+            <br>
+            <h4>Problema: servidor parou / switch com problemas / qualquer interrupção de comunicação do servidor com os PDVs.</h4>
+            <br>
+            <h4>Analisar: colocar a loja em redundância ou aguardar procedimentos como, servidor está inicializando, intermitência de rede, intermitência com energia, servidor online, mas não está comunicando com os terminais.</h4>
+            <br>
+        <div class="procedure-item-1">
+            <h3>QUANDO COLOCAR A LOJA EM REDUNDÂNCIA?</h3>
+            <br>
+            <h4>Quando ações realizadas no servidor ou no switch não surtem efeito de retornar operação da loja.
+                <br>
+                Exemplos: demora para resolução ou quando há necessidade de uma visita física, deve ser iniciado o processo de colocar em redundância.</h4>
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h3>COMO COLOCAR A LOJA EM REDUNDÂNCIA?</h3>
+            <br>
+            <h4>1. Verifique o PDV que estará com uma mensagem: “Tornar servidor de arquivos”</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0018/IMC0018__1.png" alt="">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>2. Clicar no botão</h4>
+            <h4>3. No canto esquerdo/direito inferior terá uma numeração em cada</h4>
+            <h4>4. Somar estes dois números</h4>
+            <h4>5. O resultado da soma deve ser inserido no campo do sistema “Escreva a senha” (Geralmente o resultado contém 4 números, mas não é uma regra).</h4>
+            <h4>6. Após esta ação, irá aparecer uma mensagem de aguarde.</h4>
+            <h4>7. Solicitar um teste de venda para operação.</h4>
+            <br>
+            <h3>QUANDO A LOJA ESTÁ EM REDUNDÂNCIA TEREMOS O SEGUINTE CENÁRIO</h3>
+            <br>
+            <h4>1. Não terá sistema de cartão, pois não existirá comunicação com o servidor. Neste caso, as vendas terão que ser realizadas pelos POs (máquinas de cartão que não dependem do sistema).</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0018/IMC0018__2.png" alt="">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>2. Não existirá integração com iFood e PHDV (pedidos do SITE). A loja terá que verificar no computador da gerência o pedido, tendo que realizar ação manual.</h4>
+            <h4>3. Neste momento, temos uma pausa da conciliação das vendas. O processo irá retornar assim que o servidor retornar com sua atividade e remover a loja redundância.</h4>
+            <br>
+            <h3>QUANDO RETIRAR A LOJA DE REDUNDÂNCIA E RETORNAR PARA O SERVIDOR?</h3>
+            <br>
+            <h4>1. Não pode retirar a loja de redundância durante a operação do dia, ou seja, a retirada deverá acontecer após a finalização do dia da operação.</h4>
+            <h4>2. Apenas retirar de redundância quando o servidor estiver ativo novamente.</h4>
+            <br>
+            <h3>COMO SOLICITAR A RETIRADA DA REDUNDÂNCIA?</h3>
+            <br>
+            <h4>1. Abertura de chamado com a NCR</h4>
+            <h4>a. Nome da Loja</h4>
+            <h4>b. Horário de funcionamento da loja</h4>
+            <h4>c. Compartilhar o acesso para acesso ao servidor (AnyDesk)</h4>
+        </div>
+        <br>
+        <div>
+            <h3>Mais Informações no link abaixo:</h3>
+            <br>
+            <h3><a href="https://ncrhospitality.atlassian.net/wiki/spaces/SDIMC/pages/1720778768/Retirar+loja+da+redund+ncia" target="_blank">Base ncrhospitality</a></h3>
+        </div>
+    </div>
+    <div class="botao">
+        <button class="botao" onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">&#8679;</button>
+    </div>
+</body>
+</html>

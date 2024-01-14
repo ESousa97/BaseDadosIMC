@@ -1,0 +1,36 @@
+.botao button {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: #000000;
+}
+
+.botao2 button {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.botao2 button:hover {
+    background-color: #000000;
+}
