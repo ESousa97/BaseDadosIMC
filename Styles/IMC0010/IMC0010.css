@@ -1,0 +1,20 @@
+.Tabela__IMC0010 table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .Tabela__IMC0010 th,
+  .Tabela__IMC0010 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #85858550;
+  }
+  
+  .Tabela__IMC0010 th {
+    background-color: #f2f2f250;
+  }
+  
+  .Tabela__IMC0010 tr:hover {
+    background-color: rgba(245, 139, 0, 0.568);
+  }
+  

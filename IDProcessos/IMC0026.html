@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESHOP</title>
+    <link rel="stylesheet" href="/Styles/Estilizacaogeral.css">
+    <link rel="stylesheet" href="/Styles/EstilizacaoImg/StylesImg.css">
+    <link rel="stylesheet" href="/Styles/Estilizacaobotao.css">
+    <script src="/JavaScriptBotao.js"></script>
+</head>
+<body>
+    <header class="Cabecalho">
+        <nav class="Cabecalho__menu">
+            <a class="Cabecalho__menu__link" href="/index.html">
+                <h4>Página Principal</h4>
+            </a>
+            <a class="Cabecalho__menu__link" href="/Categories.html">
+                <h4>Categorias</h4>
+            </a>
+        </nav>
+    </header>
+    <div class="procedure-list-1">
+        <div class="procedure-item-1">
+            <h1>CONFIGURAR RESHOP / INSTALAR RESHOP</h1>
+            <br>
+            <h4>O client do Reshop deverá ser instalado no servidor, caso este também seja usado como PDV, seguindo o mesmo procedimento descrito a seguir.(Realizar o procedimento na maquina que apresentar o problema)</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0026/IMC0026__1.png" alt="imagem passo 1">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>Configuração PDV Instalando Client</h4>
+            <h4>Após fazer a configuração no servidor, basta fazer a instalação do cliente em cada um dos PDVs, este que está disponível atualizado pode ser baixado no link:</h4>
+            <h4><a href="https://unicosistemas.blob.core.windows.net/client/setup.exe">Reshop</a></h4>
+            <h4>Após executá-lo, a seguinte tela vai ser exibida, avance até concluir o processo.</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0026/IMC0026__2.png" alt="imagem passo 2">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>Concluindo a instalação, vá ao diretório “C:\Unico\Client” e nas propriedades do aplicativo “Único.Client.exe” configure para ser executado como administrador, como mostrado na imagem a seguir.</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0026/IMC0026__3.png" alt="imagem passo 3">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>Envie o atalho do cliente para a área de trabalho e defina para ser executado como administrador nas propriedades do atalho, como mostrado abaixo:</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0026/IMC0026__4.png" alt="imagem passo 4">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>Configurado o atalho, você deve copiá-lo para a pasta inicializar do Windows, para que abra quando o sistema for carregado. Você pode acessar essa pasta, digitando “inicializar” diretamente na barra de endereço.</h4>
+            <h4>A seguir execute o atalho e acesse configurações e insira o usuário e senha, como mostrado abaixo. Não esqueça que para o IMC deve ser mantido o ambiente “reshopfood.linx.com.br”</h4>
+        </div>
+        <br>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0026/IMC0026__5.png" alt="imagem passo 5">
+        </div>
+        <br>
+        <div class="procedure-item-1">
+            <h4>Salvas as credenciais, feche o client a abra novamente, deverá aparecer o usuário da loja e alguma informação no log, assim confirmando a comunicação com o servidor do Reshop. Abaixo vemos uma imagem de exemplo, lembrando que deverá aparecer o usuário específico da loja.</h4>
+        </div>
+    </div>
+    <div class="botao">
+        <button class="botao" onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">&#8679;</button>
+    </div>
+</body>
+</html>
