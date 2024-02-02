@@ -22,8 +22,8 @@ body {
 
 .Cabecalho {
     padding: 2% 2% 2% 5%;
-    background-color: rgb(99, 99, 99);
-    border-bottom: 2px solid rgb(255, 145, 0);
+    background-color: rgb(34, 34, 34);
+    border-bottom: 7px solid #0077ff5d;
     list-style-type: none;
     overflow: hidden;
 }
@@ -38,14 +38,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
-    color: rgb(255, 145, 0);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px #000000;
     text-decoration: none;
 }
 
 .Cabecalho__menu a:hover {
   transition: 0.3s;
-    background-color: #ffffff5d;
+    background-color: #0077ff5d;
     border-radius: 5px;
 }
 
@@ -55,11 +55,10 @@ body {
 
 .procedures__titulo {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     text-align: center;
-    color: rgb(255,140,0);
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
     padding: 5%;
 }
 
@@ -75,16 +74,16 @@ body {
     width: 500px;
     padding: 10px;
     font-size: 15px;
-    border: 1px solid #000000;
+    border: 2px solid #0077ff5d;
     text-align: center;
     color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: #000000e0;
     border-radius: 10px;
 }
 
 .search-box input:hover {
     transition: 0.3s;
-    background-color: rgb(41, 41, 41);
+    background-color: #292929;
     border-radius: 10px;
 }
 
@@ -107,21 +106,21 @@ body {
   
   .procedure-item {
     width: calc(30% - 20px); /* Para dividir em duas colunas */
-    background-color: #00000069;
+    background-color: #000000be;
     padding: 20px;
     margin-bottom: 20px;
-    border-bottom: 2px solid #ffffffbd;
+    border-bottom: 2px solid #0077ffb0;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: rgb(255,140,0);
+    color: #ffffff;
     text-decoration: none;
     border-radius: 15px;
   }
 
   .procedure-item img:hover {
     transition: 0.3s;
-    background-color: rgb(255,140,0);
+    background-color: #0077ff5d;
     border-radius: 10px;
   }
 
@@ -136,14 +135,14 @@ body {
     left: 10%;
     right: 10%;
     bottom: -5%;
-    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo transparente com opacidade reduzida */
+    background-color: rgba(0, 0, 0, 0.904); /* Cor de fundo transparente com opacidade reduzida */
     z-index: -1; /* Coloca a caixa atrás do conteúdo */
 }
 
 .procedure-list-1 {
     padding-left: 12%;
     padding-right: 12%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin-top: 5px;
     flex-wrap: wrap;
@@ -152,7 +151,7 @@ body {
 }
 
 .procedure-item-1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     flex-direction: column;
 }
@@ -222,20 +221,20 @@ li {
 .procedure-item-categories {
   padding-left: 13%;
   padding-right: 13%;
-  color: rgb(255, 140, 0);
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px #000000;
   list-style: none;
 }
 
 .procedure-item-categories li:hover {
   transition: 0.3s;
-  background-color: #8181815d;
+  background-color: #3535359c;
   border-radius: 10px;
 }
 
 .procedure-item-categories h3:hover {
   transition: 0.3s;
-  background-color: #5252525d;
+  background-color: #3535359c;
   border-radius: 10px;
 }
 
@@ -284,7 +283,7 @@ img {
   .rodape {
     padding: 24px;
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 136, 0, 0.479);
+    background-color: #0077ffb0;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -298,11 +297,11 @@ img {
         background-color: #0000009d;
         padding: 5px;
         margin-bottom: 5px;
-        border-bottom: 2px solid #ffffffbd;
+        border-bottom: 2px solid #0077ffb0;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        color: rgb(255,140,0);
+        color: rgb(255, 255, 255);
         text-decoration: none;
       }
 
@@ -341,11 +340,11 @@ img {
         background-color: #0000009d;
         padding: 5px;
         margin-bottom: 5px;
-        border-bottom: 2px solid #ffffffbd;
+        border-bottom: 2px solid #0077ffb0;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        color: rgb(255,140,0);
+        color: rgb(255, 255, 255);
         text-decoration: none;
       }
     .procedure-list.procedure-item-1.procedure-list-1.procedures__titulo.rodape.Cabecalho.Cabecalho__menu.Cabecalho__menu__link.search-box {

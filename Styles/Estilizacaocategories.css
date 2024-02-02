@@ -3,10 +3,10 @@ a {
   }
   
   a:link {
-    color: rgb(255, 140, 0);
+    color: rgb(255, 255, 255);
   }
   
   a:visited {
-    color: rgb(255, 140, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
