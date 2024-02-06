@@ -3,120 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEGUST-PINPAD</title>
+    <title>Degust-Pinpad</title>
     <link rel="stylesheet" href="/Styles/Estilizacaogeral.css">
     <link rel="stylesheet" href="/Styles/EstilizacaoImg/StylesImg.css">
+    <link rel="stylesheet" href="/Styles/Estilizacaobotao.css">
+    <script src="/JavaScriptBotao.js"></script>
 </head>
 <body>
     <header class="Cabecalho">
         <nav class="Cabecalho__menu">
-            <a class="Cabecalho__menu__link" href="/index.html">Página Principal</a>
+            <a class="Cabecalho__menu__link" href="/index.html">
+                <h4>Página Principal</h4>
+            </a>
+            <a class="Cabecalho__menu__link" href="/Categories.html">
+                <h4>Categorias</h4>
+            </a>
         </nav>
     </header>
     <div class="procedure-list-1">
         <div class="procedure-item-1">
-            <h1>DLL PINPAD – DEGUST</h1>
+            <h1>DEGUST - DLL pinpad- não aceita cpf - erro de pinpad 31 - 30</h1>
             <br>
-            <h3><i>Antes de tudo, feche o Degust no terminal, abra o gerenciador de tarefas e finalize todos os processos em "detalhes" do Degust, para conseguirmos realizar todas as alterações necessárias abaixo!</i></h3>
             <br>
-            <h4>Primeiramente baixe o arquivo no terminal com problema:</h4>
+            <h4><i>Antes de tudo, feche o Degust no terminal, abra o gerenciador de tarefas e finalize todos os processos em "detalhes" do Degust, para conseguirmos realizar todas as alterações necessárias abaixo!</i></h4>
+            <br>
+            <h4>Primeiramente baixe o arquivo em sua máquina, depois copie para o terminal com problema.</h4>
             <br>
             <h4>DLL Degust (Somente os arquivos irão para as pastas System32 e SysWow64):</h4>
-            <h4>Link: <a href="https://1drv.ms/f/s!AvPsNaL3HzHBgq5AoReupvM-NHNGTQ?e=KxUO99" target="_blank">DLL Degust 2</a></h4>
+            <h4>Link: <a href="https://1drv.ms/f/s!AvPsNaL3HzHBhIEReapI_8WPfcSxgA?e=3u1l8G" target="_blank">DLL Degust 2</a></h4>
             <br>
-            <h4>Após baixar o arquivo, eles irão ficar em Downloads da seguinte forma:</h4>
+            <h4>Após baixar o arquivo, ele irá ficar da seguinte forma:</h4>
+            <br>
+            <br>
         </div>
-        <br>
         <div class="procedure-image">
             <img src="/Assets/Procedimentos/IMC0051/IMC0051__1.png" alt="Imagem passo 1">
         </div>
         <br>
-        <div class="procedure-item-1">
-            <h4>Iremos mover o arquivo para pasta TI IMC no disco local C:</h4>
-        </div>
         <br>
+        <div class="procedure-item-1">
+        <h4>● Agora vamos acessar a pasta SysWOW64 e System32 do terminal e deletar os seguintes arquivos.</h4>
+        <br>
+        <h4>● CliSiTef32.dll</h4>
+        <br>
+        <h4>● CliSiTef32l.dll</h4>
+        <br>
+        <h4>● CliSiTef64.DLL</h4>
+        <br>
+        <h4>● CliSiTef64l.DLL</h4>
+        <br>
+        <h4>● Obs.: Os arquivos estão sendo deletados, pois nessa nova versão das DLL's do pinpad, eles não existem, e podem causar bug's ou erros nas formas de pagamentos.</h4>
+        <br>
+        <br>
+        </div>
         <div class="procedure-image">
             <img src="/Assets/Procedimentos/IMC0051/IMC0051__2.png" alt="Imagem passo 2">
         </div>
         <br>
+        <br>
         <div class="procedure-item-1">
-            <h4>Nessa parte podem extrair o arquivo normalmente:</h4>
-            <h4>Ele irá ficar da seguinte forma:</h4>
+        <h4>● Após deletar os arquivos das pastas SysWOW64 e System32, vamos até a pasta onde está as nossas DLL's.</h4>
         </div>
+        <br>
         <br>
         <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__3.png" alt="Imagem passo 3">
+            <img src="/Assets/Procedimentos/IMC0051/IMC0051__5.png" alt="Imagem passo 3">
         </div>
         <br>
+        <br>
         <div class="procedure-item-1">
-            <h4>Na pasta TI IMC, e iremos navegar até o diretório DLL Degust 2:</h4>
+        <h4>● Após selecionar todas as DLL's, vamos copiar para as pastas System32 e SysWOW64.</h4>
         </div>
+        <br>
         <br>
         <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__6.png" alt="Imagem passo 6">
+            <img src="/Assets/Procedimentos/IMC0051/IMC0051__6.png" alt="Imagem passo 4">
+        </div>
+        <div class="procedure-item-1">
+            <br>
+            <br>
+            <h4>● Substitua tudo dentro das pastas System32 e SysWOW64.</h4>
+            <br>
+            <br>
+        </div>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0051/IMC0051__7.png" alt="Imagem passo 5">
         </div>
         <br>
+        <br>
         <div class="procedure-item-1">
-            <h4>Ao ter acesso a pasta, encontrar as DLL's conforme acima, iremos copiar todas as DLL's para o seguinte diretório:</h4>
+            <br>
+            <br>
+            <h4>● Mesma coisa faremos na SysWOW64.</h4>
+            <br>
+            <br>
         </div>
+        <div class="procedure-image">
+            <img src="/Assets/Procedimentos/IMC0051/IMC0051__8.png" alt="Imagem passo 5">
+        </div>
+        <br>
         <br>
         <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__7.png" alt="Imagem passo 7">
+            <img src="/Assets/Procedimentos/IMC0051/IMC0051__9.png" alt="Imagem passo 5">
         </div>
         <br>
-        <div class="procedure-item-1">
-            <h4>Após efetuar a cópia, navegue até a pasta "System32":</h4>
-        </div>
         <br>
         <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__8.png" alt="Imagem passo 8">
+            <img src="/Assets/Procedimentos/IMC0051/IMC0051__10.png" alt="Imagem passo 5">
         </div>
+        <br>
         <br>
         <div class="procedure-item-1">
-            <h4>Dentro dela iremos copiar todas as DLL's:</h4>
-            <h4>Pode clicar em substituir todos os arquivos de destino:</h4>
-        </div>
-        <br>
-        <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__9.png" alt="Imagem passo 9">
-        </div>
-        <br>
-        <div class="procedure-item-1">
-            <h4>Irá apresentar a mensagem:</h4>
-            <h4>Clicamos em continuar!</h4>
-            <h4>Marque a caixa "Fazer isso para todos os itens atuais"</h4>
-        </div>
-        <br>
-        <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__10.png" alt="Imagem passo 10">
-        </div>
-        <br>
-        <div class="procedure-item-1">
-            <h4>Iremos copiar os mesmo arquivos para a pasta SysWOW64:</h4>
-            <h4>Da mesma forma feita na System32.</h4>
-        </div>
-        <br>
-        <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__11.png" alt="Imagem passo 11">
-        </div>
-        <br>
-        <div class="procedure-item-1">
-            <h4>Clicamos em substituir:</h4>
-            <h4>E depois em continuar:</h4>
-            <h4>Não esqueçam de deixar a caixa marcada "Fazer isso para todos os itens atuais"</h4>
-        </div>
-        <br>
-        <div class="procedure-image">
-            <img src="/Assets/Procedimentos/IMC0051/IMC0051__12.png" alt="Imagem passo 12">
-        </div>
-        <br>
-        <div class="procedure-item-1">
-            <h4>Após finalizar a cópia, reinicie o terminal. Valide com a loja.</h4>
+            <h4>● Pronto, agora as DLL's do terminal estão atualizadas.</h4>
+            <br>
+            <h4>● Caso tenha dúvidas, acesse os processo
+                <br>
+                ● <a href="/IDProcessos/IMC0077.html" target="_blank">Degust - Configuração do Pinpad: Definindo a Porta COM</a>
+                <br>
+                ● <a href="/IDProcessos/IMC0076.html" target="_blank">Fixando porta COM do Pinpad - Procedimento de Correção</a>
+                <br>
+                ● <a href="/IDProcessos/IMC0050.html" target="_blank">Instalando driver gertec - Pinpad</a>
+            </h4>
         </div>
         <br>
         <br>
+</div>
         <br>
         <br>
-    </div>
-</body>
-</html>
+        <br>
+        <br>
+        <div class="botao">
+            <button class="botao" onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">&#8679;</button>
+        </div>
+    </body>
+    </html>
