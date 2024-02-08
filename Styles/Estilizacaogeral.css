@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'FonteGeral';
-    src: url(/FontFace/Poppins-Regular.ttf);
+    src: url(/FontFace/Poppins-SemiBold.ttf);
 }
 
 body {
@@ -276,7 +276,7 @@ img {
   
 
 .marker {
-    color: rgb(0, 0, 0); /* Cor do marcador */
+    color: rgb(255, 255, 255); /* Cor do marcador */
     margin-right: 10px; /* Espaçamento à direita do marcador */
   }
 
