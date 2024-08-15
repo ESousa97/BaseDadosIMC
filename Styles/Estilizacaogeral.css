@@ -38,7 +38,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.788);
     text-shadow: 2px 2px 2px #000000;
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ body {
     width: 500px;
     padding: 10px;
     font-size: 15px;
-    border: 2px solid #0077ff5d;
+    border: 2px solid #ffffff5d;
     text-align: center;
     color: #ffffff;
     background-color: #000000e0;
@@ -273,6 +273,10 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+.no-underline {
+    text-decoration: none;
+}
   
 
 .marker {
@@ -282,8 +286,8 @@ img {
 
   .rodape {
     padding: 24px;
-    color: rgb(255, 255, 255);
-    background-color: #0077ffb0;
+    color: rgba(255, 255, 255, 0.788);
+    background-color: rgb(34, 34, 34);
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
